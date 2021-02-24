@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{771DDECB-C20F-4DF2-8F00-241B6A02473A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{0961CD34-61FF-4E8C-B4CD-121DFC006788}"
+	ProjectSection(SolutionItems) = preProject
+		src\View\DefaultHome.xaml = src\View\DefaultHome.xaml
+		src\View\DefaultHome.xaml.cs = src\View\DefaultHome.xaml.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Windows.Controls.Home.DefaultHome(dotNet)", "dotNet\Atomus.Windows.Controls.Home.DefaultHome(dotNet).csproj", "{8EC495C4-2FE1-4157-B7B2-A783132B6536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EC495C4-2FE1-4157-B7B2-A783132B6536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC495C4-2FE1-4157-B7B2-A783132B6536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC495C4-2FE1-4157-B7B2-A783132B6536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC495C4-2FE1-4157-B7B2-A783132B6536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0961CD34-61FF-4E8C-B4CD-121DFC006788} = {771DDECB-C20F-4DF2-8F00-241B6A02473A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C6B4EC1-2380-4DF1-A87F-357E25D9A931}
+	EndGlobalSection
+EndGlobal
